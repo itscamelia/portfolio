@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Index = () => {
-  return <div>Hello Portfolio!</div>;
+import { Header } from './components/header';
+import { Menu } from './components/menu';
+
+const App = () => {
+  return <div>
+    <Menu />
+    <Header />
+  </div>;
 };
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+ReactDOM.render(<App />, document.getElementById("index"));
