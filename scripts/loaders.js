@@ -24,6 +24,15 @@ module.exports = [
     exclude: /node_modules/
   },
   {
+    test: /\.jpe?g$|\.gif$|\.png$/i,
+    use: [
+      {
+        loader: 'file-loader'
+      }
+    ],
+    exclude: /node_modules/
+  },
+  {
     test: /\.yml$/,
     use: ['json-loader', 'yaml-loader'],
     exclude: /node_modules/

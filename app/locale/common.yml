@@ -1,7 +1,7 @@
 menu:
   -
     title: "About"
-    link: "#"
+    link: "https://www.linkedin.com/in/cameliaviallet"
   -
     title: "Say Hello!"
     link: "mailto:camelia.viallet@gmail.com"
@@ -9,3 +9,13 @@ menu:
 header:
   title: "Camélia Viallet - Product Manager"
   desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere."
+
+sections:
+  -
+    title: "Product Management"
+    image: "product_section.jpeg"
+    link: "#"
+  -
+    title: "Social Media Management"
+    image: "social_section.jpg"
+    link: "#"

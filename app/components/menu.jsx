@@ -9,7 +9,7 @@ export class Menu extends React.Component {
     i18n.menu.forEach(({ title, link },
       index
     ) => menuItems.push(
-      <a className="menu-item" key={index} href={link}>{title}</a>
+      <a className="menu-item" key={index} href={link} target="_blank">{title}</a>
     ));
 
     return <header className="menu-list">{ menuItems }</header>;
