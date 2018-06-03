@@ -2,6 +2,7 @@ menu:
   -
     title: "About"
     link: "https://www.linkedin.com/in/cameliaviallet"
+    target: '_blank'
   -
     title: "Say Hello!"
     link: "mailto:camelia.viallet@gmail.com"
